@@ -13,7 +13,7 @@ This project demonstrates real-world engineering across:
 
 ---
 
-# 🚀 Demo Overview
+# Demo Overview
 
 **Flow:**
 
@@ -21,7 +21,7 @@ Coordinator → distributes image task → multiple peers run ONNX inference →
 
 ---
 
-# 🧠 Architecture
+# Architecture
 
 ## Components
 
@@ -61,7 +61,7 @@ http://localhost:8000/metrics
 
 ---
 
-# ⚙️ Tech Stack
+# Tech Stack
 
 * **Python** — networking, orchestration, consensus
 * **ONNX Runtime** — edge inference execution
@@ -73,7 +73,7 @@ http://localhost:8000/metrics
 
 ---
 
-# 📦 Project Structure
+# Project Structure
 
 ```
 mini-gradient/
@@ -92,7 +92,7 @@ mini-gradient/
 
 ---
 
-# 🏃 Local Setup
+# Local Setup
 
 ## 1. Install dependencies
 
@@ -138,7 +138,7 @@ http://localhost:8000/metrics
 
 ---
 
-# 🐳 Docker Deployment
+# Docker Deployment
 
 Run full distributed stack:
 
@@ -148,7 +148,7 @@ docker compose up --build
 
 ---
 
-# 📊 Example Metrics Output
+# Example Metrics Output
 
 ```json
 {
@@ -165,7 +165,7 @@ docker compose up --build
 
 ---
 
-# 🔐 Future Improvements
+# Future Improvements
 
 Planned production‑grade upgrades:
 
@@ -179,7 +179,7 @@ Planned production‑grade upgrades:
 
 ---
 
-# 🎯 Why This Project Matters
+# Why This Project Matters
 
 Centralized AI compute is becoming a bottleneck for open innovation.
 
