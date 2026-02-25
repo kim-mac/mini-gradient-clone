@@ -191,5 +191,5 @@ Decentralized inference networks enable:
 
 This repository is a **minimal working prototype** of that future.
 
----
+
 
