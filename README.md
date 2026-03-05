@@ -1,4 +1,4 @@
-# Decentralized AI Inference Network
+# Decentralized AI Inference Network.
 
 A production-style prototype of a **decentralized peer‑to‑peer AI inference system** inspired by Gradient, Bittensor, and Gensyn.
 
@@ -13,7 +13,7 @@ This project demonstrates real-world engineering across:
 
 ---
 
-# Demo Overview
+# Demo Overview.
 
 **Flow:**
 
@@ -21,7 +21,7 @@ Coordinator → distributes image task → multiple peers run ONNX inference →
 
 ---
 
-# Architecture
+# Architecture.
 
 ## Components
 
