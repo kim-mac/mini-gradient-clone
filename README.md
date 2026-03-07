@@ -34,14 +34,14 @@ Coordinator → distributes image task → multiple peers run ONNX inference →
 * Updates **peer reputation scores**
 * Persists metrics to `metrics.json`
 
-### 2. Peer Nodes
+### 2. Peer Nodes.
 
 * Receive image bytes over socket
 * Preprocess to MNIST tensor
 * Run **ONNX Runtime inference**
 * Return predicted digit
 
-### 3. Metrics Server
+### 3. Metrics Server.
 
 * Lightweight HTTP server
 * Serves system state at:
@@ -50,7 +50,7 @@ Coordinator → distributes image task → multiple peers run ONNX inference →
 http://localhost:8000/metrics
 ```
 
-### 4. React Dashboard (optional extension)
+### 4. React Dashboard (optional extension).
 
 * Displays:
 
@@ -61,7 +61,7 @@ http://localhost:8000/metrics
 
 ---
 
-# Tech Stack
+# Tech Stack.
 
 * **Python** — networking, orchestration, consensus
 * **ONNX Runtime** — edge inference execution
@@ -73,7 +73,7 @@ http://localhost:8000/metrics
 
 ---
 
-# Project Structure
+# Project Structure.
 
 ```
 mini-gradient/
